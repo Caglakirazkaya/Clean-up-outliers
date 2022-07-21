@@ -1,7 +1,6 @@
 
 import pandas as pnd
 price_list=pnd.read_csv("veriseti.csv",sep=';')
-price_list
 price_list.describe()
 
 Q1=price_list.Price.quantile(0.25)
